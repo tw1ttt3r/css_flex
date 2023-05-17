@@ -1,0 +1,63 @@
+/* selector universal */
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+/* selectores */
+/* id */
+#principal {
+  color: white;
+  background-color: red;
+}
+/* etiqueta o tag */
+section {
+  background-color: brown;
+  padding: 16px 8px 20px 10px;
+  /* orden de lados: top right bottom left */
+  /* funciona para padding, border, margin */
+}
+/* clase */
+.elemento, .contenedor {
+  margin: 16px;
+  border: 2px red dotted;
+  /* todos los lados sean de 2px, todos los lados sean de color rojo */
+  /* todos los lados sea punteados */
+}
+.contenedor {
+  border-top: 3px;
+}
+
+nav {
+  width: 100%;
+}
+
+
+nav ul {
+  list-style: bullet;
+}
+
+ul {
+  list-style: georgian;
+}
+
+nav > ul {
+  list-style: none;
+}
+
+#navegacion {
+  width: 100%;
+}
+
+#navegacion > ul > li {
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+}
+
+#navegacion > ul > li:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
